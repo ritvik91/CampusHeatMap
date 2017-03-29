@@ -1,8 +1,9 @@
-#Campus Heat Map
+# Campus Heat Map
+
 The This is a campus app showing a dynamic, real-time heat map where student crowds are on a campus environment at any time. Used EddyStone iBeacons and ARM mbed for getting the data.
 
 
-###Team members:
+### Team members:
 
 Ritvik Ritvik
 Mohit Singh
@@ -14,7 +15,7 @@ Eddystone Beacon
 -The capacity counter increments with the push of SW2 or SW3 button on the Mbed board. The threshold set is 20, after which the LED light’s up.
 -The board sends the updated population to the server and the server communicates to the board upon pressing “send message” button.
 -Insert capacity counters: loc1, loc2, loc3, loc4 and initialize counter to 0(type int 32)
-	```
+```
 	eg: _id:"loc1"			(string)
 	    counter:0			(int32)
 ```
