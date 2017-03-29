@@ -13,17 +13,17 @@ Karan Mirani
 
 Sarah Samji
 
-Eddystone Beacon
+	Eddystone Beacon
 
-	-The beacon ID is formatted using iBeacon format, thus having a UUID, Major and Minor ID. (UUID: 11111111-1111-1111-1111-111111111111)
+	The beacon ID is formatted using iBeacon format, thus having a UUID, Major and Minor ID. (UUID: 11111111-1111-1111-1111-111111111111)
 
-	-Beacon Manager class was used for beacon ranging and monitoring.
+	Beacon Manager class was used for beacon ranging and monitoring.
 
-	-The capacity counter increments with the push of SW2 or SW3 button on the Mbed board. The threshold set is 20, after which the LED light’s up.
+	The capacity counter increments with the push of SW2 or SW3 button on the Mbed board. The threshold set is 20, after which the LED light’s up.
 
-	-The board sends the updated population to the server and the server communicates to the board upon pressing “send message” button.
+	The board sends the updated population to the server and the server communicates to the board upon pressing “send message” button.
 
-	-Insert capacity counters: loc1, loc2, loc3, loc4 and initialize counter to 0(type int 32)
+	Insert capacity counters: loc1, loc2, loc3, loc4 and initialize counter to 0(type int 32)
 
 	```
 	eg: _id:"loc1"			(string)
@@ -31,13 +31,13 @@ Eddystone Beacon
 
 	```
 
--Change IP value to your corresponding IP in the following files:
+Change IP value to your corresponding IP in the following files:
 	
-	-MyApplication.java
+	MyApplication.java
 	
-	-config.js
+	config.js
 	
-	- Mbed, main.cpp (BROKER value)
+	Mbed, main.cpp (BROKER value)
 
 - Include the following dependencies in build.gradle(Module:app)
 ```
